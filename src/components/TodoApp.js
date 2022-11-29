@@ -28,6 +28,7 @@ function TodoApp() {
         setTodos(temp);
     }
 
+
     return (
         <div className="todoContainer">
             <form className='todoCreateForm' onSubmit={handleSubmit}>
@@ -40,7 +41,7 @@ function TodoApp() {
             <div className='todosContainer'>
                 {
                     todos.map((item) => (
-                        <Todo key={item.id}item={item} onUpdate={handleUpdate}/>
+                        <Todo key={item.id} item={item} onUpdate={handleUpdate}/>
                     ))
                 }
             </div>
