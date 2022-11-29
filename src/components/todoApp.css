@@ -53,6 +53,15 @@
 .button {
     border: none;
     border-radius: 10px;
-    background-color: darkgoldenrod;
+    background-color: blue;
     color: black;
+    padding: 10px 20px;
+}
+
+.buttonDelete {
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
 }
