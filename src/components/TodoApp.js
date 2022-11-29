@@ -1,6 +1,7 @@
-import React from 'react'
-import { useState } from 'react'
-import Todo from './todo'
+import React from 'react';
+import { useState } from 'react';
+import Todo from './todo';
+import './todoApp.css';
 function TodoApp() {
 
     const [title, setTitle] = useState('');
@@ -15,6 +16,8 @@ function TodoApp() {
         }
 
         setTodos([...todos, newTodos]);
+
+        setTitle('');
     }
 
     const handleChange = (e) => {

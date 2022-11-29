@@ -1,0 +1,20 @@
+.todoContainer {
+    width: 500px;
+    margin: 100px auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.todoCreateForm {
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px #999;
+}
